@@ -3,10 +3,15 @@
 natlas - Network Atlas  
 
 #Pull the last binaries from the official Github repository.
+
 cd
+
 git clone https://github.com/MJL85/mnet.git
+
 cd mnet
+
 sudo apt-get install graphviz wget git python-pip -y
+
 sudo pip install pysnmp pyparsing==2.0.6 pydot2 netaddr graphviz
 
 Automated discovery and diagram tools using SNMP, CDP, and LLDP.
